@@ -1,10 +1,8 @@
 ﻿Console.WriteLine("Введите целое число  ");
 int userNumber = Convert.ToInt32(Console.ReadLine());
-if (userNumber % 2 == 0)
+int a = 0;
+while (a < (userNumber-1))
 {
-    Console.WriteLine("Да");
+    a += 2;
+    Console.WriteLine(a +", " );
 }
-else
-    {
-        Console.WriteLine("Нет");
-    }
